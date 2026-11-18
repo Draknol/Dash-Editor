@@ -1,0 +1,17 @@
+0 -40
+
+# Small testing map
+
+p -10 0 21 1 1 0 Planks
+p -10 -5 1 5 1 0 Planks
+p 10 -5 1 5 1 0 Planks
+p -10 -6 21 1 1 0 Planks
+d -9 -5 19 5 1 0 Planks
+d -9 -5 19 5 1 0 color 00000064
+d -3 -3 1 1 5 5 Torch
+d 3 -3 1 1 5 5 Torch
+
+# Door to first level
+
+d 0 -2 1 1 1 0 color 3c3cFFFF
+D 0 -2 1 2 1 0 Door Level1 17 -2.5
